@@ -6,4 +6,4 @@ Class that runs through a bracket and returns predictions
 class Bracket:
     def __init__(self, bracket_file : str, predictor : Predictor):
         self.bracket_file = bracket_file
-        self.predictor = Predictor
+        self.predictor = predictor
